@@ -12,9 +12,10 @@ div{
 }
 
 .page{
-	font-family: 'Noto Sans JP',YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+	font-family: 'Lato', sans-serif;
 	overflow: hidden;
 }
+
 
 
 .header{
@@ -23,21 +24,25 @@ div{
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	height: 120px;
-	line-height: 120px;
+	height: 110px;
 	z-index: 999;
 	transition: all.5s ease;
-	background-color: #fff;
+	background-color: rgba(255,255,255,1.00);
 }
 
 .logo{
 	font-size: 3.6rem;
-	margin-left: 50px;
+	margin-left: 6%;
+	font-weight: bold;
 	
 }
 
 .logo a{
-	color:#111;
+	color:#222;
+}
+
+.aqua{
+	color: #096fc8;
 }
 
 .gnavi{
@@ -46,36 +51,32 @@ div{
 	line-height: 1;
 	width: 550px;
 	margin-right: 180px;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	font-weight:bold;
-	
-
 }
 
 .gnavi li{
 	position: relative;
-	display: inline-block;
+	text-align: center;
+	letter-spacing: .2px;
 }
 
-.gnavi li::before{
-	position: absolute;
-	content: "";
-	height: 2px;
-	width: 0;
-	left: 0;
-	bottom: -10px;
-	background-color: #096fc8;;
-	transition: all .3s ease;
+.gnavi li:hover a{
+	color: #096fc8;
 }
 
-.gnavi li:hover::before{
-	width: 100%;
-}
 
 .gnavi a{
-	color: #333;
+	color: #222;
 }
 
+.nav-subtext{
+	display: block;
+	font-size: .6rem;
+	margin-top: 5px;
+	color: #888;
+	letter-spacing: 0;
+}
 
 .res-menu{
 	display: none;
@@ -88,12 +89,11 @@ div{
 
 .header-contact{
 	position: fixed;
-	display: block;
 	right: 0;
 	top: 0;
-	width: 130px;
-	height: 120px;
-	line-height: 120px;
+	width: 120px;
+	height: 110px;
+	line-height: 110px;
 	background-color: #096fc8;
 	font-size: 1.4rem;
 	color: #fff;
@@ -114,9 +114,8 @@ div{
 
 
 .header.active{
-	height: 70px;
-	line-height: 70px;
-	background-color:rgba(255,255,255,1);
+	height: 80px;
+	line-height: 80px;
 }
 
 .header.active .gnavi li::before{
@@ -161,7 +160,7 @@ div{
 .mainphoto-wrapper{
 	position: relative;
 	width: 75%;
-	margin: 120px 0 0 auto;
+	margin: 110px 0 0 auto;
 
 }
 
@@ -169,12 +168,12 @@ div{
 	position: relative;
 	width: 100%;
 	border-radius: 30px 0 0 30px;
-	height: calc(100vh - 120px);
+	height: calc(100vh - 110px);
 }
 
 .mainphoto img{
 	border-radius: 30px 0 0 30px;
-	height: calc(100vh - 120px);
+	height: calc(100vh - 110px);
 	object-fit: cover;
 }
 
@@ -193,13 +192,14 @@ div{
 
 .fv-text-black{
 	position: absolute;
-	font-size: 10rem;
-	color: #222;
-	left: -22%;
-	bottom: 100px;
+	font-size: 12rem;
+	color: #333;
+	left: -26%;
+	bottom: 40px;
 	z-index: -1;
-	line-height: 1.2;
-	letter-spacing: 1px;
+	line-height: 1;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
 }
 
 .fv-text-white{
@@ -208,7 +208,7 @@ div{
 	height:100%;;
 	overflow: hidden;
 	top: 0;
-	line-height: 1.2;
+	line-height: 1;
 	
 
 	
@@ -218,11 +218,10 @@ div{
 	position: absolute;
 	content: "FUJInoKI \A RENOVATION";
 	color: #fff;
-	font-size: 10rem;
-	left: -22%;
-	bottom: 100px;
+	font-size: 12rem;
+	left: -26%;
+	bottom: 40px;
 	z-index: 1;
-	letter-spacing: 1px;
 	white-space: pre;
 }
 
@@ -297,8 +296,8 @@ div{
 
 .scroll-down{
 	position: absolute;
-	bottom: 0px;
-	left: 50px;
+	bottom: 0;
+	right: 50px;
 	color: #fff;
 	font-size: 1.3rem;
 	letter-spacing: .2em;
@@ -315,7 +314,7 @@ div{
 
 
 .section-title{
-	color: #111q;
+	color: #111;
 	
 }
 
@@ -373,12 +372,12 @@ div{
 
 .about-text{
 	width: 55%;
-	margin-top: 120px;
+	margin-top: 100px;
 }
 
 .about-title{
 	position: relative;
-	font-size: 4.8rem;
+	font-size: 4.4rem;
 	letter-spacing: 2px;
 	font-weight: bold;
 	color: #333;
@@ -778,7 +777,7 @@ div{
 
 
 .newstext-title{
-	margin-top: 40px;
+	margin-top: 30px;
 	font-size: 1.8rem;
 	line-height: 1.4;
 	color: #111;
@@ -786,7 +785,7 @@ div{
 }
 
 .news-date{
-	margin-top: 40px;
+	margin-top: 30px;
 	color: #666;
 	font-size: 1.5rem;
 	letter-spacing: 1px;
@@ -954,8 +953,8 @@ div{
 .contact-box{
 	position: relative;
 	width: 50%;
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 90px;
+	padding-bottom: 90px;
 	border-top: 1px solid rgba(9,111,200,.5);
 	transition: all .5s ease;
 }
@@ -988,7 +987,7 @@ div{
 }
 
 .contact-sub-title{
-	font-size: 3rem;
+	font-size: 2.6rem;
 	letter-spacing: 2px;
 	margin-top: 30px;
 	margin-left: 15%;
@@ -996,12 +995,12 @@ div{
 }
 
 .contact-sentence{
-	margin-top: 40px;
+	margin-top: 30px;
 	margin-left: 15%;
 	width: 65%;
 	font-size: 1.6rem;
 	color: #666;
-	line-height: 2.2;
+	line-height: 2;
 	letter-spacing: 2px;
 }
 
@@ -1082,23 +1081,18 @@ div{
 @media (max-width:896px){
 	
 	.header{
-		height: auto;
-		line-height: 0;;
+		position: fixed;
+		height: 90px;
+		line-height: 90px;
 		background-color:rgba(255,255,255,0);
 	}
 
 	
 	.logo{
-		position: fixed;
-		left: 6%;
-		top: 55px;
-		margin-left: 0;
-		font-size: 3rem;
-
+		font-size: 3.2rem;
+		margin-left: 6%;
 	}
 	
-	
-
 
 	.gnavi{
 		display: none;
@@ -1106,16 +1100,16 @@ div{
 
 
 	.res-menu{
-		display: block;
-		position: fixed;
-		right: 20px;
-		top: 25px;
+		position: relative;
+		display: inline-block;
 		width: 55px;
 		height: 55px;
 		border-radius: 50%;
 		cursor: pointer;
+		margin-right: 10px;
 		background-color: #096fc8;
 		transition: all .5s ease;
+		z-index: 999;
 
 	}	
 
@@ -1147,7 +1141,21 @@ div{
 		transform: translateY(7px);
 	}
 
+	.res-menu:hover  div:nth-of-type(1){
+		width: 20%;
+		left: -10%;
+	}
+	
+	
+	.res-menu:hover  div:nth-of-type(3){
+		width: 40%;
+		left: 0;
+	}
+
+	
 	.res-menu.active div:nth-of-type(1){
+		width: 40%;
+		left: 0;
 		transform: rotate(45deg);
 	}
 
@@ -1170,7 +1178,7 @@ div{
 		height: 100vh;
 		background-color:#096fc8;
 		color: #fff;
-		z-index: 999;
+		z-index: 998;
 		transition: all .8s ease;
 		opacity: 0;
 		visibility: hidden;
@@ -1320,11 +1328,12 @@ div{
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%);
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 	}
 
 	.res-contactmenu::after{
 		content: "お問い合わせ";
+		
 	}
 	
 	.res-counselingmenu::after{
@@ -1371,13 +1380,13 @@ div{
 
 	.mainphoto{
 		border-radius: 20px 0 0 20px;
-		height: calc(100vh - 250px);
+		height: calc(100vh - 120px);
 
 	}
 
 	.mainphoto img{
 		border-radius: 20px 0 0 20px;
-		height: calc(100vh - 250px);
+		height: calc(100vh - 120px);
 	}
 
 
@@ -1389,21 +1398,15 @@ div{
 	.fv-text-black{
 		font-size: 8rem;
 		left: -18%;
-		bottom: 80px;
-		line-height: 1.2;
-		letter-spacing: 1px;
 	}
 
 	.fv-text-white{
 		top: 0;
-		line-height: 1.2;
 	}
 
 	.fv-text-white::after{
 		font-size: 8rem;
 		left: -18%;
-		bottom: 80px;
-		letter-spacing: 1px;
 	}
 
 	
@@ -1710,7 +1713,7 @@ div{
 
 	.news-mainbox{
 		margin: 40px auto 0;
-		width: 100%;
+		width: 110%;
 		margin-left: 6%;
 	}
 
@@ -1917,10 +1920,8 @@ div{
 
 
 	.res-menu{
-		top: 25px;
-		right:10px;
-		width: 50px;
-		height: 50px;		
+		width: 45px;
+		height: 45px;		
 	}	
 	
 	.res-menu div{
@@ -1928,11 +1929,11 @@ div{
 	}	
 	
 	.res-menu div:nth-of-type(1){
-		transform: translateY(-7px);
+		transform: translateY(-6px);
 	}
 	
 	.res-menu div:nth-of-type(3){
-		transform: translateY(7px);
+		transform: translateY(6px);
 	}
 	
 	
@@ -2008,22 +2009,20 @@ div{
 	}
 	
 	.fv-text-black{
-		font-size: 4.4rem;
+		font-size: 4.8rem;
 		left: -18%;
 		bottom: 40px;
-		line-height: 1.4;
-		letter-spacing: 0px;
+		line-height: 1.2;
 	}
 	
 	.fv-text-white{
-		line-height: 1.4;
+		line-height: 1.2;
 	}
 
 	.fv-text-white::after{
-		font-size: 4.4rem;
+		font-size: 4.8rem;
 		left: -18%;
 		bottom: 40px;
-		letter-spacing: 0px;
 	}
 
 	
@@ -2131,11 +2130,11 @@ div{
 
 
 	.service-text{
-		top: 75px;
+		top: 70px;
 	}
 
 	.service-text-title{
-		font-size: 2.8rem;
+		font-size: 3rem;
 		letter-spacing: 1px;
 		line-height: 1.2;
 	}
@@ -2190,12 +2189,12 @@ div{
 
 
 	.flow-title{
-		font-size: 2.6rem;
+		font-size: 3.4rem;
 		letter-spacing: 1px;
 	}
 
 	.flow-title::before{
-		top:  -20px;
+		top:  -15px;
 		font-size: 1rem;
 		letter-spacing: 1px;
 
@@ -2207,7 +2206,7 @@ div{
 
 
 	.flow-box{
-		margin-top: 30px;
+		margin-top: 40px;
 		width:50%;
 	}
 
@@ -2235,7 +2234,7 @@ div{
 	}
 
 	.flow-text i{
-		font-size: 4.4rem;
+		font-size: 4rem;
 
 
 	}
@@ -2243,7 +2242,7 @@ div{
 	.flow-sentence{
 		font-size: .5rem;
 		letter-spacing: 1px;
-		line-height: 1.7;
+		line-height: 1.6;
 		text-align: center;
 		margin: 10px auto 0;
 		width: 80%;
