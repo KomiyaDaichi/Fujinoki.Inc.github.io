@@ -63,6 +63,7 @@ div{
 	position: relative;
 	text-align: center;
 	letter-spacing: .2px;
+	margin-top: 15px;
 }
 
 .gnavi li:hover a{
@@ -79,7 +80,7 @@ div{
 	font-size: .5rem;
 	margin-top: 5px;
 	color: #888;
-	letter-spacing: .5px;
+	letter-spacing: 0;
 }
 
 .res-menu{
@@ -120,6 +121,10 @@ div{
 .header.active{
 	height: 80px;
 	line-height: 80px;
+}
+
+.header.active .gnavi li{
+	margin-top: 5px;
 }
 
 .header.active .gnavi li::before{
@@ -381,7 +386,7 @@ div{
 .about-title{
 	position: relative;
 	font-size: 4.4rem;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-weight: bold;
 	color: #333;
 }
@@ -398,6 +403,7 @@ div{
 .about-sub-title{
 	font-size: 2.4rem;
 	margin-top: 50px;
+	color: #333;
 }
 
 .about-sentence{
@@ -500,20 +506,23 @@ div{
 .service-text-title{
 	font-size: 5rem;
 	letter-spacing: 4px;
+	color: #222;
 }
 
 .service-text-subtitle{
 	margin-top: 60px;
-	font-size: 2.8rem;
+	font-size: 2.6rem;
 	letter-spacing: 2px;
+	color: #222;
 }
 
 .service-sentence{
 	margin-top: 60px;
 	width: 28%;
 	font-size: 1.5rem;
-	line-height: 2;
+	line-height: 2.2;
 	letter-spacing: 1px;
+	color: #555;
 }
 
 .service-photo{
