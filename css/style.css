@@ -38,6 +38,7 @@ div{
 	font-size: 3.6rem;
 	margin-left: 6%;
 	font-weight: bold;
+	margin-top: 10px;
 	
 }
 
@@ -121,6 +122,10 @@ div{
 .header.active{
 	height: 80px;
 	line-height: 80px;
+}
+
+.header.active .logo{
+	margin-top: 0px;
 }
 
 .header.active .gnavi li{
