@@ -134,16 +134,11 @@ div{
 	z-index: -2;
 }
 
-.mainphoto-wrapper{
-	position: relative;
-	width: 78%;
-	margin: 0 0 0 auto;
-
-}
 
 .mainphoto{
 	position: relative;
-	width: 100%;
+	margin: 0 0 0 auto;
+	width: 78%;
 	border-radius: 0 0 0 60px;
 	height: 100vh;
 }
@@ -1178,12 +1173,12 @@ div{
 		content: "ホーム";
 	}
 	
-	.res-aboutbox::before{
-		content: "FUJINOKIについて";
+	.res-solutionbox::before{
+		content: "課題解決";
 	}
 	
 	.res-servicebox::before{
-		content: "サービス";
+		content: "事業内容";
 	}
 
 	
@@ -1376,9 +1371,6 @@ div{
 		border: 1px solid #096fc8;
 	}
 
-	.scroll-down{
-		display: none;
-	}
 
 	
 	
@@ -1386,67 +1378,7 @@ div{
 	
 	
 	
-	.about{
-	padding-top: 120px;
-	}
-
-	.about-bg::after{
-		width: 90%;
-		height: 30%;
-		top: 33%;
-		left:0;
-		right: 0;
-		margin: auto;
-		border-radius: 10px;
-
-	}
-
-	.about-container{
-		display:block;
-		width: 88%;
-	}
-
-	.about-photo{
-		display: none;
-	}
-
-	.res-about-photo{
-		display: block;
-		width: 45%;
-		margin: 30px auto 0;
-		box-shadow:0 3px 15px rgba(31,40,51,0.15); 
-		border-radius: 10px;
-	}
 	
-	.res-about-photo img{
-		border-radius: 10px;
-	}
-	.about-text{
-		width: 100%;
-		margin-top: 0px;
-	}
-
-	.about-title{
-		font-size: 4.2rem;
-	}
-
-	.about-title::before{
-		top: -25px;
-		font-size: 1.5rem;
-	}
-	
-	.about-sub-title{
-		font-size: 2.2rem;
-		margin-top: 40px;
-}
-
-	
-	.about-sentence{
-		margin-top: 20px;
-		font-size: 1.6rem;
-		color: #333;
-		letter-spacing: 1px;
-	}
 	
 	.more{
 		height: 55px;
@@ -1457,165 +1389,12 @@ div{
 
 	}
 
-	.about-more{
-		width: 220px
-	}
 
 	
 	
 	
-	
-	.service{
-		margin-top: 160px;
-		min-width: auto;
-	}
-
-	.service-title{
-		margin-left: 6%;
-		font-size: 4.2rem;
-		letter-spacing: 1px;
-	}
-
-	.service-title::after{
-		font-size: 1.5rem;
-		bottom: auto;
-		top: -25px;
-	}
 
 
-	.service-text{
-		top: 100px;
-	}
-
-	.service-text-title{
-		font-size: 3.8rem;
-		letter-spacing: 2px;
-	}
-
-	.service-text-subtitle{
-		margin-top: 50px;
-		font-size: 2.6rem;
-		line-height: 1.8;
-	}
-
-	.service-sentence{
-		margin-top: 50px;
-		width: 50%;
-		font-size: 1.6rem;
-		line-height: 2.2;
-	}
-
-	.service-photo{
-		width: 65%;
-		padding-top: 40px;
-		min-width: 400px;
-	}
-
-	.service-photo img{
-		border-radius: 15px;
-	}
-
-
-	
-	.service-photo1{
-		display: none;
-	}
-
-	.service-more{
-		width: 200px;
-		margin: 50px auto 0 0;
-	}
-
-
-
-
-
-
-
-
-	.flow{
-		margin-top: 120px;
-		padding-top: 100px;;
-		padding-bottom: 100px;
-
-	}
-
-
-	.flow-container{
-		width: 84%;
-	}
-
-
-
-	.flow-title{
-		font-size: 4.2rem;
-		letter-spacing: 2px;
-	}
-
-	.flow-title::before{
-		top:  -25px;
-		font-size: 1.4rem;
-		letter-spacing: 2px;
-		left: 0;
-		right: 0;
-		margin: auto;
-
-	}
-
-	.flow-mainbox{
-		margin-top: 20px;
-	}
-
-
-	.flow-box{
-		margin-top: 40px;
-		width:50%;
-	}
-
-	.flow-text-title{
-		font-size: 1.6rem;
-		margin-left: 60px;
-	}
-
-	.flow-text-title::before{
-		font-size: 3.8rem;
-		left: -60px;
-		top: -2px;;
-
-	}
-
-	.flow-text-title::after{
-		bottom: -18px;
-		font-size: 1.1rem;
-	}
-
-
-
-	.flow-text{
-		margin-top: 40px;
-	}
-
-	.flow-text i{
-		font-size: 6rem;
-
-
-	}
-
-	.flow-sentence{
-		font-size: 1.2rem;
-		letter-spacing: 1px;
-		line-height: 2;
-		text-align: center;
-		margin: 15px auto 0;
-		width: 70%;
-
-
-	}
-	.flow-more{
-		width: 220px;
-		margin: 60px auto 0;
-
-	}
 
 
 
@@ -1983,46 +1762,6 @@ div{
 
 
 	
-	.about{
-	position: relative;
-	padding-top: 100px;
-	}
-
-	.about-bg::after{
-		width: 90%;
-		height: 30%;
-		top: 35%;
-
-	}
-
-
-	.res-about-photo{
-		width: 50%;
-		margin: 20px auto 0;
-	}
-	
-
-	.about-title{
-		font-size: 2.6rem;
-		letter-spacing: 1px;
-
-	}
-
-	.about-title::before{
-		top: -20px;
-		font-size: .9rem;
-	}
-	
-	.about-sub-title{
-		font-size: 1.6rem;
-		margin-top: 30px;
-	}
-	
-	
-	.about-sentence{
-		margin-top: 10px;
-		font-size: 1.2rem;
-	}
 	
 	.more{
 		font-size: 1rem;
@@ -2031,163 +1770,11 @@ div{
 
 	}
 
-	.about-more{
-		margin-top: 30px;
-		width: 180px;
-	}
 
 
 	
-	
-	.service{
-		margin-top: 100px;
-	}
-
-	.service-container br{
-		display: block;
-	}
-	
-	.service-title{
-		font-size: 2.6rem;
-	}
-
-	.service-title::after{
-		font-size: 1rem;
-		top: -20px;
-	}
 
 
-	.service-text{
-		top: 70px;
-	}
-
-	.service-text-title{
-		font-size: 3rem;
-		letter-spacing: 1px;
-		line-height: 1.2;
-	}
-
-	.service-text-subtitle{
-		margin-top: 30px;
-		font-size: 1.6rem;
-		line-height: 1.8;
-	}
-
-	.service-sentence{
-		display: none;
-	}
-
-	.service-photo{
-		width: 65%;
-		padding-top: 30px;
-		min-width: auto;
-	}
-
-	.service-photo img{
-		border-radius: 10px;
-	}
-
-
-	.service-more{
-		width: 140px;
-		height: 45px;
-		line-height: 45px;
-		margin: 40px auto 0 0;
-	}
-
-
-
-
-
-
-
-
-	.flow{
-		margin-top: 100px;
-		padding-top: 60px;;
-		padding-bottom: 60px;
-
-	}
-
-
-	.flow-container{
-		width: 88%;
-	}
-
-
-
-	.flow-title{
-		font-size: 3.4rem;
-		letter-spacing: 1px;
-	}
-
-	.flow-title::before{
-		top:  -15px;
-		font-size: 1rem;
-		letter-spacing: 1px;
-
-	}
-
-	.flow-mainbox{
-		margin-top: 10px;
-	}
-
-
-	.flow-box{
-		margin-top: 40px;
-		width:50%;
-	}
-
-	.flow-text-title{
-		font-size: 1.2rem;
-		margin-left: 40px;
-	}
-
-	.flow-text-title::before{
-		font-size: 2.8rem;
-		left: -53px;
-		top: 0px;
-
-	}
-
-	.flow-text-title::after{
-		bottom: -15px;
-		font-size: .6rem;
-	}
-
-
-
-	.flow-text{
-		margin-top: 30px;
-	}
-
-	.flow-text i{
-		font-size: 4rem;
-
-
-	}
-
-	.flow-sentence{
-		font-size: .5rem;
-		letter-spacing: 1px;
-		line-height: 1.6;
-		text-align: center;
-		margin: 10px auto 0;
-		width: 80%;
-
-
-	}
-	.flow-more{
-		width: 180px;
-		margin: 40px auto 0;
-
-	}
-
-
-
-
-
-	
 	
 
 	
