@@ -34,23 +34,26 @@ $(function(){
 	});
 });
 
+
 $(function(){
-	$('.scroll-down').click(function(){
-		$('html,body').animate({scrollTop:$('.about').offset().top},800);
+	$('.solution-text-box1').hover(function(){
+		$('.solution-photo1').fadeToggle(200);
 	});
 });
 
 $(function(){
-	$('.mainphoto').slick({
-		autoplay:true,
-		arrows:false,
-		fade:true,
-		autoplaySpeed:9000,
-		speed:800,
-		infinite:true,
-		accessibility: true,
-	})
+	$('.solution-text-box2').hover(function(){
+		$('.solution-photo2').fadeToggle(200);
+	});
 });
+
+$(function(){
+	$('.solution-text-box3').hover(function(){
+		$('.solution-photo3').fadeToggle(200);
+	});
+});
+
+
 
 $(function(){
 	$(".news-mainbox").slick({

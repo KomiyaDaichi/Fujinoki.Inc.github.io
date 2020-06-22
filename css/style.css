@@ -28,17 +28,15 @@ div{
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	height: 110px;
 	z-index: 999;
 	transition: all.5s ease;
-	background-color: rgba(255,255,255,1.00);
+	padding-top: 50px;
 }
 
 .logo{
 	font-size: 3.6rem;
-	margin-left: 6%;
+	margin-left: 4%;
 	font-weight: bold;
-	margin-top: 10px;
 	
 }
 
@@ -53,10 +51,11 @@ div{
 .gnavi{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	line-height: 1;
-	width: 550px;
-	margin-right: 180px;
-	font-size: 1.5rem;
+	width: 50%;
+	margin-right: 3%;
+	font-size: 1.7rem;
 	font-weight:bold;
 }
 
@@ -64,7 +63,10 @@ div{
 	position: relative;
 	text-align: center;
 	letter-spacing: .2px;
-	margin-top: 15px;
+}
+
+.gnavi a{
+	color: #222;
 }
 
 .gnavi li:hover a{
@@ -72,16 +74,25 @@ div{
 }
 
 
-.gnavi a{
-	color: #222;
+
+.header-contact{
+	padding: 1em 2em;
+	background-color:  #096fc8;; 
+	border-radius:50px;
+	border: 1px solid #096fc8;
+	transition: all .3s ease;
 }
 
-.nav-subtext{
-	display: block;
-	font-size: .5rem;
-	margin-top: 5px;
-	color: #888;
-	letter-spacing: 0;
+.header-contact a{
+	color: #fff;
+}
+
+.header-contact:hover{
+	background-color: #fff;
+}
+
+.header-contact:hover a{
+	color: #096fc8;
 }
 
 .res-menu{
@@ -93,62 +104,15 @@ div{
 	
 }
 
-.header-contact{
-	position: fixed;
-	right: 0;
-	top: 0;
-	width: 120px;
-	height: 110px;
-	line-height: 110px;
-	background-color: #096fc8;
-	font-size: 1.4rem;
-	color: #fff;
-	font-weight: bold;
-	text-align: center;
-	transition: all .5s ease;
-}
-
-
-.header-contact:hover{
-	background-color: #fff;
-	border: 1px solid #096fc8;
-	color: #096fc8;
-}
-
-
-
-
 
 .header.active{
+	padding-top: 0;
+	background-color: #fff;
 	height: 80px;
 	line-height: 80px;
 }
 
-.header.active .logo{
-	margin-top: 0px;
-}
 
-.header.active .gnavi li{
-	margin-top: 5px;
-}
-
-.header.active .gnavi li::before{
-	background-color: #096fc8;
-}
-
-.header.active .logo a{
-	font-size: 3rem;
-}
-
-.header.active .gnavi a{
-	font-size: 1.4rem;
-}
-
-.header.active .header-contact{
-	height: 80px ;
-	line-height: 80px;
-	font-size: 1.2rem;
-}
 
 
 
@@ -164,7 +128,7 @@ div{
 	content: "";
 	background-color: #096fc8;
 	width: 30%;
-	height: 65%;
+	height: 35%;
 	left: 0;
 	bottom: 0;
 	z-index: -2;
@@ -172,21 +136,21 @@ div{
 
 .mainphoto-wrapper{
 	position: relative;
-	width: 75%;
-	margin: 110px 0 0 auto;
+	width: 78%;
+	margin: 0 0 0 auto;
 
 }
 
 .mainphoto{
 	position: relative;
 	width: 100%;
-	border-radius: 30px 0 0 30px;
-	height: calc(100vh - 110px);
+	border-radius: 0 0 0 60px;
+	height: 100vh;
 }
 
 .mainphoto img{
-	border-radius: 30px 0 0 30px;
-	height: calc(100vh - 110px);
+	border-radius: 0 0 0 60px;
+	height: 100vh;
 	object-fit: cover;
 }
 
@@ -194,53 +158,57 @@ div{
 .mainphoto::before{
 	position: absolute;
 	content: "";
-	background-color: #000;
+	background-color: #fff;
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	opacity: .2;
-	border-radius: 30px 0 0 30px;
+	opacity: .1;
+	border-radius: 0 0 0 60px;
 }
 
 
-.fv-text-black{
+.fv-textbox{
 	position: absolute;
-	font-size: 12rem;
+	left: 9%;
+	font-size: 4rem;
 	color: #333;
-	left: -25%;
-	bottom: 40px;
-	z-index: -1;
-	line-height: 1;
-	font-family: 'Lato', sans-serif;
+	top: 24%;
 	font-weight: bold;
+	z-index: 2;
 }
 
-.fv-text-white{
-	position:absolute;
-	width: 100%;
-	height:100%;;
-	overflow: hidden;
-	top: 0;
-	line-height: 1;
-	
-
-	
+.fv-text{
+	background-color: rgba(255,255,255,.9);
+	letter-spacing: .6em;
+	border-radius: 10px;
+	padding: .6em .8em .6em 0;
 }
 
-.fv-text-white::after{
-	position: absolute;
-	content: "FUJInoKI \A RENOVATION";
+.fv-text2{
+	margin-top: 10px;
+}
+
+.fv-sentence{
+	margin-top: 50px;
+	letter-spacing: .3em;
+	font-size: 1.8rem;
+	line-height: 2;
+}
+
+.fv-counceling{
+	display: block;
+	width: 330px;
+	height: 65px;
+	line-height: 65px;
+	background-color: rgba(9,111,200,1.00);
+	text-align: center;
 	color: #fff;
-	font-size: 12rem;
-	left: -25%;
-	bottom: 40px;
-	z-index: 1;
-	white-space: pre;
+	font-size: 1.4rem;
+	border-radius: 35px;
+	letter-spacing: 3px;
+	margin-top: 70px;
+	box-shadow: 0px 0px 30px rgba(9,111,200,.5);
 }
-
-
-
-
 
 .fixed-menu{
 	position: fixed;
@@ -304,127 +272,18 @@ div{
 .scroll-top:hover{
 	background-color: #fff;
 	color: #096fc8;
-	border: 2px solid #096fc8
-}
-
-.scroll-down{
-	position: absolute;
-	bottom: 0;
-	right: 50px;
-	color: #fff;
-	font-size: 1.3rem;
-	letter-spacing: .2em;
-	border-left: 1px solid #fff;
-	writing-mode:vertical-rl;
-	padding: 5px 10px 30px ;
-	z-index: 99;
-	cursor: pointer;
+	border: 2px solid #096fc8;
 }
 
 
 
-
-
-
-.section-title{
-	color: #111;
-	
-}
-
-
-
-																/*aboutセクション*/
-
-
-.res-about-photo{
-	display: none;
-}
-
-.about{
-	position: relative;
-	padding-top: 180px;
-}
-
-.about-bg{
-	position: absolute;
-	content: "";
-	background-color: #fff;
-	width: 100%;
-	height: 80%;
-	top: 0;
-	left: 0;
-	z-index: -2;
-}
-
-.about-bg::after{
-	position: absolute;
-	content: "";
-	background-color: #096fc8;
-	width: 30%;
-	height: 80%;
-	left: 0;
-	top:-5px;
-	border-radius: 0 0 10px 0;
-}
-
-.about-container{
-	display: flex;
-	justify-content: space-between;
-	width: 88%;
-	margin: 0 auto;
-	max-width: 1600px;
-}
-
-.about-photo{
-	width: 35%;
-}
-
-.about-photo img{
-	border-radius: 20px;
-}
-
-.about-text{
-	width: 55%;
-	margin-top: 100px;
-}
-
-.about-title{
-	position: relative;
-	font-size: 4.4rem;
-	letter-spacing: 1px;
-	font-weight: bold;
-	color: #333;
-}
-
-.about-title::before{
-	position: absolute;
-	content: "FUJInoKIについて";
-	color: #096fc8;
-	top: -35px;
-	left: 0;
-	font-size: 1.5rem;
-}
-
-.about-sub-title{
-	font-size: 2.4rem;
-	margin-top: 50px;
-	color: #333;
-}
-
-.about-sentence{
-	margin-top: 40px;
-	line-height: 2;
-	font-size: 1.5rem;
-	color: #666;
-	letter-spacing: 2px;
-}
 
 .more{
 	position: relative;
 	display: block;
-	height: 60px;
-	line-height: 60px;
-	border-radius: 30px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 35px;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -443,12 +302,6 @@ div{
 	font-weight: 900;
 }
 
-.about-more{
-	margin-top: 60px;
-	width: 220px;
-	background-color:#096fc8;
-	color: #fff;
-}
 
 .more:hover{
 	background-color: #fff;
@@ -458,23 +311,178 @@ div{
 
 
 
+.solution{
+	position: relative;
+	width: 100%;
+	margin-top: 160px;
+}
+
+.solution-bg{
+	position: absolute;
+	content: "";
+	background-color: #096fc8;
+	width: 100%;
+	height: 48%;
+	bottom: 0;
+}
+
+.solution-title{
+	position: relative;
+	text-align: center;
+	font-size: 5.4rem;
+	color: #333;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.solution-title::after{
+	position: absolute;
+	content: "課題解決";
+	left: 0;
+	right: 0;
+	bottom: -25px;
+	margin: auto;
+	font-size: 1.6rem;
+	color: #096fc8;
+}
+
+.solution-photo{
+	position: relative;
+	height: 95vh;
+	width: 78%;
+	margin: 60px auto 0 0;
+	border-radius: 0 70px 0 0;
+}
+
+.solution-photobox{
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 0 70px 0 0;
+	height: 100%;
+	
+}
+
+.solution-photobox img{
+	border-radius: 0 70px 0 0;
+	height: 100%;
+	object-fit: cover;
+}
+
+.solution-photo1,
+.solution-photo2,
+.solution-photo3{
+	display: none;
+}
 
 
 
+.solution-bg{
+	position: absolute;
+	content: "";
+	background-color: #096fc8;
+	width: 100%;
+	height: 60%;
+	bottom: 0;
+}
+
+
+.solution-textmainbox{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 40px;
+	z-index: 10;
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.solution-textbox{
+	position: relative;
+	display: block;
+	padding-top: 7em;
+	padding-bottom: 7em;
+	background-color: #fff;
+	text-align: center;
+	width:30%;
+	border-radius: 30px;
+	transition: all .3s ease;
+}
+
+.solution-textbox:hover{
+	background-color: #096fc8;
+	color: #fff;
+}
+
+.solution-textbox:hover .solution-text-title,
+.solution-textbox:hover .solution-sentence{
+	color: #fff;
+}
+
+.solution-textbox:hover .solution-arrow{
+	background-color: #fff;
+	color: #096fc8;
+}
+
+
+.solution-text-title{
+	font-size: 3rem;
+	font-weight: bold;
+	color: #222;
+	font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
+}
+
+.solution-sentence{
+	width: 90%;
+	font-size: 1.7rem;
+	margin: 25px auto 0;
+	line-height: 1.8;
+	letter-spacing: 2px;
+	color: #444;
+}
+
+.solution-arrow{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	margin: 25px auto 0;
+	background-color: #096fc8;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.6rem;
+}
 
 
 
 
 
 .service{
-	margin-top: 160px;
+	margin-top: 180px;
 	min-width: 1024px;
+}
+
+
+.service-container{
+	position: relative;
+	width: 92%;
+	margin: 0 0 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.service-text{
+	width: 40%;
+	margin-right: 40px;
+	margin-top: 40px;
 }
 
 .service-title{
 	position: relative;
-	margin-left: 6%;
-	font-size: 5.4rem;
+	font-size:6rem;
 	font-weight: bold;
 	letter-spacing: 2px;
 	color: #333;
@@ -482,88 +490,50 @@ div{
 
 .service-title::after{
 	position: absolute;
-	content: "サービス";
+	content: "事業内容";
 	color:#096fc8;
 	font-size: 1.6rem;
-	bottom: -30px;
-	left: 0;
+	top: -30px;
+	left: 2px;;
 }
 
-.service-container{
-	position: relative;
-	width: 94%;
-	margin: 0 0 0 auto;
-	display: flex;
-}
 
-.service-container br{
-	display: none;
-}
-
-.service-text{
-	position: absolute;
-	width: 100%;
-	left: 0;
-	top: 140px;
-	z-index: 1;
-}
-
-.service-text-title{
-	font-size: 5rem;
-	letter-spacing: 4px;
-	color: #222;
-}
-
-.service-text-subtitle{
-	margin-top: 60px;
-	font-size: 2.6rem;
+.service-subtitle{
+	margin-top: 50px;
+	font-size: 3.2rem;
 	letter-spacing: 2px;
 	color: #222;
+	line-height: 1.6;
+	font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "serif";
 }
 
 .service-sentence{
-	margin-top: 60px;
-	width: 28%;
-	font-size: 1.5rem;
+	margin-top: 40px;
+	font-size: 1.7rem;
 	line-height: 2.2;
 	letter-spacing: 1px;
 	color: #555;
-}
-
-.service-photo{
-	display: flex;
-	justify-content: space-between;
-	width: 72%;
-	padding-top: 80px;
-	margin: 0 0 0 auto;
-}
-
-.service-photo img{
-	border-radius: 20px;
-}
-
-.service-photo div{
-	position: relative;
-}
-
-.service-photo div::before{
-	position: absolute;
-	content: "";
-	background-color: #fff;
-	width: 100%;
-	height: 100%;
-	opacity: .3;
-}
-.service-photo1{
-	margin-right: 20px;
+	width: 90%;
 }
 
 .service-more{
 	background-color: #096fc8;
 	color: #fff;
-	width: 220px;
+	width: 280px;
 	margin-top: 60px;
 }
+
+.service-photo{
+	width: 70%;
+}
+
+
+.service-photo img{
+	border-radius: 20px;
+}
+
+
+
 
 
 
@@ -575,18 +545,17 @@ div{
 .flow{
 	position: relative;
 	margin-top: 160px;
-	padding-top: 120px;;
-	padding-bottom: 120px;
-	background-color: #096fc8;
-	color: #f1f1f1;
+	padding-top: 80px;;
+	padding-bottom: 80px;
+	background-color: #096fc8;;
 	
 }
 
 
 .flow-container{
 	position: relative;
-	width: 88%;
-	margin: 0 auto;
+	width: 75%;
+	margin: 80px auto 0;
 }
 
 
@@ -597,134 +566,74 @@ div{
 	letter-spacing: 2px;
 	font-weight: bold;
 	text-align: center;
+	color: #fff;
 }
 
 .flow-title::before{
 	position: absolute;
 	content: "サービスの流れ";
-	color: #f1f1f1;
 	bottom:  -30px;
 	font-size: 1.6rem;
 	letter-spacing: 1px;
 	left: 0;
 	right: 0;
-	margin: auto;
-	
+	margin: auto;	
 }
+
 
 .flow-mainbox{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin:50px auto 0;
+}
+
+.flow-box{
+	width: 31%;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 20px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.flow-bottom{
 	margin-top: 40px;
 }
 
+.flow-step{
+	font-size: 2.2rem;
+	color: #999;
+	font-weight: bold;
+}
 
-.flow-box{
-	margin-top: 60px;
-	width:30%;
-	text-align: center;
+.flow-box i{
+	font-size: 8rem;
+	color: #096fc8;
+	margin-top: 30px;
+}
+
+.flow-text{
+	width: 70%;
+	margin: 30px auto 0;
 }
 
 .flow-text-title{
-	position: relative;
-	display: inline-block;
-	font-size: 1.8rem;
-	letter-spacing: 1px;
+	font-size: 2rem;
 	font-weight: bold;
-	margin-left: 50px;
-}
-
-.flow-text-title::before{
-	position: absolute;
-	font-size: 3.6rem;
-	letter-spacing: 1px;
-	left: -70px;
-	top:0px;;
-	
-}
-
-.flow-text-title::after{
-	position: absolute;
-	left:0px;
-	bottom: -17px;
-	font-size: 1.1rem;
-	letter-spacing: 0;
-}
-
-
-.flow-text-title1::before{
-	content: "01";
-}
-
-.flow-text-title1::after{
-	content: "Counceling";
-}
-
-.flow-text-title2::before{
-	content: "02";
-}
-
-.flow-text-title2::after{
-	content: "Financial";
-}
-
-.flow-text-title3::before{
-	content: "03";
-}
-
-.flow-text-title3::after{
-	content: "Design";
-}
-
-.flow-text-title4::before{
-	content: "04";
-}
-
-.flow-text-title4::after{
-	content: "Construction";
-}
-
-.flow-text-title5::before{
-	content: "05";
-}
-
-.flow-text-title5::after{
-	content: "Inspection";
-}
-
-.flow-text-title6::before{
-	content: "06";
-}
-
-.flow-text-title6::after{
-	content: "Complete";
-}
-
-
-.flow-text{
-	margin-top: 50px;
-	text-align: center;
-}
-
-.flow-text i{
-	font-size: 7rem;
-	
-
+	color: #222;;
 }
 
 .flow-sentence{
-	font-size: 1.4rem;
-	letter-spacing: 2px;
-	line-height: 2;
-	text-align: center;
-	margin: 20px auto 0;
-	width: 65%;
-	
-	
+	font-size: 1.5rem;
+	text-align: left;
+	color: #333;
+	line-height: 1.8;
+	margin-top: 20px;
 }
+
 .flow-more{
-	width: 260px;
+	width: 320px;
 	font-size: 1.4rem;
 	margin: 80px auto 0;
 	z-index: 2;
@@ -814,7 +723,7 @@ div{
 
 .news-more,
 .gallery-more{
-	width: 280px;
+	width: 320px;
 	background-color:#096fc8;
 	color: #fff;
 	font-size: 1.4rem;
