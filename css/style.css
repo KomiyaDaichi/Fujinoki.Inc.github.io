@@ -841,7 +841,7 @@ div{
 	position: absolute;
 	left: 1em;
 	top: 1em;
-	padding: 1.5em;
+	padding: 1.2em;
 	background-color:rgba(9,111,200,1);
 	color: #fff;
 	border-radius: 15px;
@@ -888,8 +888,8 @@ div{
 .contact-box{
 	position: relative;
 	width: 50%;
-	padding-top: 90px;
-	padding-bottom: 90px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	border-top: 1px solid rgba(9,111,200,.5);
 	transition: all .5s ease;
 }
