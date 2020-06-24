@@ -1,4 +1,20 @@
+$(function() {
+    var $allMsg = $('.loading p');
+    var $wordList = $('.loading p').html().split("");
+    $('.loading p').html("");
+    $.each($wordList, function(idx, elem) {
+        var newEL = $("<span/>").text(elem).css({ opacity: 0 });
+        newEL.appendTo($allMsg);
+        newEL.delay(idx * 70);
+        newEL.animate({ opacity: 1 }, 1100);
+    });
+});
 
+$(function(){
+	$(window).ready(function(){
+		$('.loading').addClass('active');
+	});
+});
 
 $(function(){
 	$(window).on('resize scroll', function(){

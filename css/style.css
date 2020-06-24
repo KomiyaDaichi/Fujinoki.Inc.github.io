@@ -11,6 +11,32 @@ div{
 	line-height: 1;
 }
 
+.loading{
+	position: fixed;
+	background-color: #fff;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	z-index: 1000;
+	font-size: 5vw;
+	font-weight: bold;
+}
+
+.loading p{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+.loading.active{
+	opacity: 0;
+	visibility: hidden;
+	display: none;
+}
+
 .page{
 	font-family: 'Lato', sans-serif;
 	overflow: hidden;
@@ -140,12 +166,12 @@ div{
 	position: relative;
 	margin: 0 0 0 auto;
 	width: 78%;
-	border-radius: 0 0 0 60px;
+	border-radius: 0 0 0 140px;
 	height: 100vh;
 }
 
 .mainphoto img{
-	border-radius: 0 0 0 60px;
+	border-radius: 0 0 0 140px;
 	height: 100vh;
 	object-fit: cover;
 }
@@ -1098,7 +1124,7 @@ div{
 		display: block;
 		position: fixed;
 		right: -100vw;
-		top: 80px;
+		top: 90px;
 		width: 100%;
 		height: 100vh;
 		background-color:#096fc8;
@@ -1889,8 +1915,8 @@ div{
 
 
 	.header{
-		height: 65px;
-		line-height: 65px;
+		height: 60px;
+		line-height: 60px;
 	}
 
 	
@@ -1919,7 +1945,7 @@ div{
 	}
 
 	.res-menulist{
-		top: 65px;
+		top: 60px;
 	}
 	
 	.res-menulist-container{
@@ -1928,15 +1954,15 @@ div{
 	
 	.res-listbox{
 		width: 100px;
-		height: 50px;
-		line-height: 50px;
-		font-size: 1.8rem;
+		height: 45px;
+		line-height: 45px;
+		font-size: 1.9rem;
 		margin-top: 0px;
 		
 	}
 	
 	.res-listbox::before{
-		bottom: -20px;
+		bottom: -18px;
 		font-size: 1rem;
 	}
 	
@@ -1946,13 +1972,13 @@ div{
 	}
 	
 	.res-menulist-bottom{
-		margin-top: 40px;
+		margin-top: 25px;
 	}
 	
 	.res-menulist-bottom div{
 		height: 45px;
 		width: 50%;
-		margin-top: 15px;
+		margin-top: 10px;
 
 	}
 		
@@ -1969,7 +1995,7 @@ div{
 	
 	
 	.fv{
-		margin-top: 65px;
+		margin-top: 60px;
 	
 	}
 	
@@ -1983,13 +2009,13 @@ div{
 	.mainphoto{
 		width: 90%;
 		border-radius: 0 0 0 100px;
-		height: calc(80vh - 65px);
+		height: calc(95vh - 60px);
 
 	}
 
 	.mainphoto img{
 		border-radius: 0 0 0 100px;
-		height: calc(80vh - 65px);
+		height: calc(95vh - 60px);
 	}
 
 	
@@ -2039,12 +2065,12 @@ div{
 
 
 	.solution-title{
-		font-size: 3.8rem;
+		font-size: 3.2rem;
 	}
 
 	.solution-title::after{
-		bottom: -20px;
-		font-size: 1.2rem;
+		bottom: -18px;
+		font-size: 1.1rem;
 	}
 
 	.solution-photo{
@@ -2102,12 +2128,13 @@ div{
 	}
 
 	.service-title{
-		font-size:3.8rem;
+		font-size:3.2rem;
 		letter-spacing: 1px;
 	}
 
 	.service-title::after{
-		font-size: 1.3rem;
+		font-size: 1.1rem;
+		bottom: -17px;
 	}
 
 	.res-servicenphoto{
@@ -2116,7 +2143,7 @@ div{
 	
 	.service-subtitle{
 		margin-top: 20px;
-		font-size: 2.2rem;
+		font-size: 2rem;
 		letter-spacing: 1px;
 		line-height: 1.6;
 	}
@@ -2125,11 +2152,11 @@ div{
 	.service-sentence{
 		font-size: 1.4rem;
 		line-height: 2;
-		margin: 10px auto 0;
+		margin: 15px auto 0;
 	}
 
 	.service-more{
-		width: 250px;
+		width: 220px;
 		margin-top: 30px;
 	}
 
@@ -2151,13 +2178,13 @@ div{
 
 
 	.flow-title{
-		font-size: 4rem;
+		font-size: 3.4rem;
 		letter-spacing: 1px;
 	}
 
 	.flow-title::before{
-		bottom:  -20px;
-		font-size: 1.2rem;
+		bottom:  -16px;
+		font-size: 1.1rem;
 	}
 
 
@@ -2170,7 +2197,7 @@ div{
 		width: 49%;
 		padding-top: 20px;
 		padding-bottom: 20px;
-		margin-top: 10px;
+		margin-top: 15px;
 	}
 
 	.flow-bottom{
@@ -2183,7 +2210,7 @@ div{
 
 	.flow-box i{
 		font-size: 4rem;
-		margin-top: 15px;
+		margin-top: 10px;
 	}
 
 	.flow-text{
@@ -2200,7 +2227,7 @@ div{
 	}
 
 	.flow-more{
-		width: 250px;
+		width: 220px;
 		margin: 40px auto 0;
 	}
 
@@ -2214,18 +2241,18 @@ div{
 
 
 	.news-title{
-		font-size: 4rem;
+		font-size: 3.4rem;
 	}
 	
 
 	.news-title::before{
-		bottom: -20px;
-		font-size: 1.3rem;
+		bottom: -15px;
+		font-size: 1.1rem;
 	}
 
 	.news-mainbox{
 		margin: 50px auto 0;
-		width: 140%;
+		width: 160%;
 		margin-left: 6%;
 	}
 
@@ -2236,18 +2263,18 @@ div{
 
 	.newstext-title{
 		margin-top: 10px;
-		font-size: 1.1rem;
+		font-size: 1.3rem;
 	}
 
 	.news-date{
 		margin-top: 15px;
-		font-size: 1rem;
+		font-size: 1.2rem;
 		padding-bottom: 1em;
 	}
 
 	.news-more,
 	.gallery-more{
-		width: 250px;
+		width: 220px;
 		margin: 40px auto 0;
 	}
 
@@ -2261,11 +2288,11 @@ div{
 	}
 
 	.gallery-title{
-		font-size: 3.8rem;
+		font-size: 3.2rem;
 	}
 
 	.gallery-title::before{
-		font-size: 1.3rem;
+		font-size: 1.1rem;
 		bottom: -20px;
 	}
 
@@ -2344,6 +2371,10 @@ div{
 		letter-spacing: 0;;
 	}
 
+	.futter-logo-black{
+		color: #333;
+	}
+	
 	.futter-nav{
 		flex-direction: column;
 		margin-left: 0px;
@@ -2358,7 +2389,7 @@ div{
 	
 	.futter-nav a{
 		position: static;
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 
 	
