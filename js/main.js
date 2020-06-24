@@ -37,8 +37,8 @@ $(function(){
 
 
 $(function(){
-	if(window.matchMedia('(min-width:896px)').matches){
-		$('.soluiton-text-box1').hover(function(){
+	if(window.matchMedia('(min-width:1024px)').matches){
+		$('.solution-text-box1').hover(function(){
 			$('.solution-photo1').fadeToggle(200);
 		});
 	}
@@ -46,8 +46,8 @@ $(function(){
 });
 
 $(function(){
-	if(window.matchMedia('(min-width:896px)').matches){
-		$('.soluiton-text-box2').hover(function(){
+	if(window.matchMedia('(min-width:1024px)').matches){
+		$('.solution-text-box2').hover(function(){
 			$('.solution-photo2').fadeToggle(200);
 		});
 	}
@@ -55,8 +55,8 @@ $(function(){
 });
 
 $(function(){
-	if(window.matchMedia('(min-width:896px)').matches){
-		$('.soluiton-text-box3').hover(function(){
+	if(window.matchMedia('(min-width:1024px)').matches){
+		$('.solution-text-box3').hover(function(){
 			$('.solution-photo3').fadeToggle(200);
 		});
 	}
