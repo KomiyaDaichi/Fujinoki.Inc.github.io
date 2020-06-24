@@ -168,7 +168,8 @@ div{
 	left: 9%;
 	font-size: 4rem;
 	color: #333;
-	top: 24%;
+	top: 55%;
+	transform: translateY(-50%);
 	font-weight: bold;
 	z-index: 2;
 }
@@ -205,6 +206,12 @@ div{
 	letter-spacing: 3px;
 	margin-top: 70px;
 	box-shadow: 0px 0px 30px rgba(9,111,200,.5);
+	transition: all .3s ease;
+}
+
+.fv-counceling:hover{
+	background-color: #fff;
+	color: #096fc8;
 }
 
 .fixed-menu{
@@ -351,6 +358,7 @@ div{
 	position: relative;
 	height: 750px;
 	width: 78%;
+	max-width: 1600px;
 	margin: 60px auto 0 0;
 	border-radius: 0 70px 0 0;
 }
@@ -395,6 +403,7 @@ div{
 	bottom: 40px;
 	z-index: 10;
 	width: 85%;
+	max-width: 1600px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -593,6 +602,8 @@ div{
 	justify-content: space-between;
 	flex-wrap: wrap;
 	margin:50px auto 0;
+	max-width: 1600px;
+	width: 100%;
 }
 
 .flow-box{
@@ -954,13 +965,14 @@ div{
 	background-color:#096fc8;
 	color: #fff;
 	padding-top: 60px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 .futter-container{
 	width: 88%;
 	margin: 0 auto;
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -971,31 +983,18 @@ div{
 .futter-nav{
 	display: flex;
 	width: 600px;
-	margin-left: 160px;
 	justify-content: space-between;
 	line-height: 0;
+	margin-right: 5%;
 }
 
 .futter-nav a{
-	position: absolute;
 	color: #fff;
 	font-size: 1.4rem;
 }
 
-.futter-nav a::before{
-	position: absolute;
-	content: "";
-	background-color: #fff;
-	left: 0;
-	bottom: -5px;
-	height: 1px;
-	width: 0;
-	transition: all .3s ease;
-}
 
-.futter-nav a:hover::before{
-	width: 100%;
-}
+
 
 .copy-right{
 	margin-top: 40px;
@@ -1076,17 +1075,6 @@ div{
 		width: 20%;
 		left: -10%;
 		transform: translateY(7px);
-	}
-
-	.res-menu:hover  div:nth-of-type(1){
-		width: 20%;
-		left: -10%;
-	}
-	
-	
-	.res-menu:hover  div:nth-of-type(3){
-		width: 40%;
-		left: 0;
 	}
 
 	
@@ -1310,6 +1298,7 @@ div{
 		color: #333;
 		top: auto;
 		bottom: 10%;
+		transform: translateY(0);
 		font-weight: bold;
 	}
 
@@ -1774,8 +1763,8 @@ div{
 	
 	.gallery-text{
 		font-size: 1.2rem;
-		margin-top: 15px;
 		line-height: 1.4;
+		left: 1.2em;
 	}
 
 	.gallery-box2,
@@ -1987,20 +1976,20 @@ div{
 	
 	.fv-textbox{
 		font-size: 6.5vw;
-		bottom: 12%;
+		bottom: 15%;
 	}
 
 	
 	.mainphoto{
-		width: 85%;
+		width: 90%;
 		border-radius: 0 0 0 100px;
-		height: calc(85vh - 65px);
+		height: calc(80vh - 65px);
 
 	}
 
 	.mainphoto img{
 		border-radius: 0 0 0 100px;
-		height: calc(85vh - 65px);
+		height: calc(80vh - 65px);
 	}
 
 	
@@ -2300,7 +2289,9 @@ div{
 	
 	
 	.gallery-text{
-		font-size: 1rem;
+		font-size: .9rem;
+		padding: .8em;
+		background-color:rgba(9,111,200,.8);
 	}
 
 
