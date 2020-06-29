@@ -229,6 +229,7 @@ div{
 	margin-top: 70px;
 	box-shadow: 0px 0px 30px rgba(9,111,200,.5);
 	transition: all .3s ease;
+	border: 1px solid #096fc8;
 }
 
 .fv-counceling:hover{
