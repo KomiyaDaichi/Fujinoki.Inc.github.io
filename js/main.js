@@ -8,7 +8,7 @@ $(function(){
 
 $(function(){
 	$(window).on('resize scroll', function(){
-		if(window.matchMedia('(min-width:896px)').matches){
+		if(window.matchMedia('(min-width:1024px)').matches){
 			
 			if($(window).scrollTop() > 450){
 				$('.fixed-menu').css('right','20px');
