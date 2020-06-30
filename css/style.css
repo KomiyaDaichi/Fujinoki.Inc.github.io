@@ -1253,7 +1253,7 @@ div{
 																		/*ファーストビュー*/
 	
 	.fv{
-		margin-top: 90px;
+		margin-top: 80px;
 	}
 	
 	.fv-textbox{
@@ -1279,13 +1279,13 @@ div{
 	.mainphoto{
 		width: 85%;
 		border-radius: 0 0 0 120px;
-		height: calc(75vh - 90px);
+		height: 75vh
 
 	}
 
 	.mainphoto img{
 		border-radius: 0 0 0 120px;
-		height: calc(75vh - 90px);
+		height: 75vh;
 	}
 
 	.fv-sentence,
