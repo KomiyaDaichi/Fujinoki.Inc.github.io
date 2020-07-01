@@ -1085,6 +1085,7 @@ div{
 		transition: all .8s ease;
 		opacity: 0;
 		visibility: hidden;
+		overflow-y: scroll;
 
 	}
 	
@@ -1174,14 +1175,14 @@ div{
 
 	.res-menulist-bottom{
 		display: block;
-		margin-top: 60px;
+		margin-top: 40px;
 	}
 	
 	.res-menulist-bottom div{
 		position: relative;
 		height: 55px;
 		width: 35%;
-		margin-top: 20px;
+		margin-top: 15px;
 		line-height: 0;
 	}
 		
