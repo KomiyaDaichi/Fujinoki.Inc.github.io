@@ -1486,7 +1486,7 @@ div{
 	}
 	
 	.service-sentence{
-		font-size: 1.6rem;
+		font-size: 1.7rem;
 		line-height: 2.2;
 		letter-spacing: 1px;
 		color: #333;
@@ -2013,11 +2013,11 @@ div{
 	}
 	
 	.solution-text-title{
-		font-size: 2.3rem;
+		font-size: 2.5rem;
 	}
 
 	.solution-sentence{
-		font-size: 1.4rem;
+		font-size: 1.5rem;
 		margin:10px auto 0;
 	}
 
@@ -2059,14 +2059,14 @@ div{
 	
 	.service-subtitle{
 		margin-top: 20px;
-		font-size: 2rem;
+		font-size: 2.2rem;
 		letter-spacing: 1px;
-		line-height: 1.6;
+		line-height: 1.8;
 	}
 	
 	.service-sentence{
 		font-size: 1.4rem;
-		line-height: 2;
+		line-height: 2.1;
 		margin: 15px auto 0;
 	}
 
