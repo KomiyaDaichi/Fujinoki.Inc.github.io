@@ -312,7 +312,7 @@ div{
 	letter-spacing: 1px;
 	font-size: 1.3rem;
 	transition: all .5s ease;
-	box-shadow: 0px 0px 20px rgba(9,111,200,.4);
+	box-shadow: 0px 0px 20px rgba(0,0,0,.2);
 }
 
 .more::after{
@@ -2114,7 +2114,7 @@ div{
 	}
 
 	.flow-text{
-		margin: 10px auto 0;
+		margin: 15px auto 0;
 	}
 
 	.flow-text-title{
