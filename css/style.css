@@ -1328,9 +1328,9 @@ div{
 	}
 	
 	.more{
-		height: 60px;
-		line-height: 60px;
-		border-radius: 30px;
+		height: 80px;
+		line-height: 80px;
+		border-radius: 40px;
 		font-size: 1.3rem;
 		margin: 40px auto 0;
 	}
@@ -1355,7 +1355,7 @@ div{
 	}
 
 	.solution-title{
-		font-size: 4.4rem;
+		font-size: 4.8rem;
 		letter-spacing: 1px;
 	}
 
@@ -1448,7 +1448,7 @@ div{
 	}
 
 	.service-title{
-		font-size:4.8rem;
+		font-size:5rem;
 		letter-spacing: 2px;
 		text-align: center;
 	}
@@ -1496,7 +1496,7 @@ div{
 	.service-more{
 		background-color: #096fc8;
 		color: #fff;
-		width: 280px;
+		width: 400px;
 		margin-top: 50px;
 	}
 
@@ -1572,7 +1572,7 @@ div{
 	}
 
 	.flow-more{
-		width: 280px;
+		width: 400px;
 		font-size: 1.4rem;
 		margin: 60px auto 0;
 		z-index: 2;
@@ -1633,7 +1633,7 @@ div{
 
 	.news-more,
 	.gallery-more{
-		width: 280px;
+		width:400px;
 		margin: 60px auto 0;
 	}
 
@@ -1648,7 +1648,7 @@ div{
 
 	.gallery-title{
 		position: relative;
-		font-size: 4.6rem;
+		font-size: 4.8rem;
 	}
 
 	.gallery-title::before{
@@ -1741,27 +1741,27 @@ div{
 
 	.contact-box{
 		width: 100%;
-		padding-top: 60px;
-		padding-bottom: 60px;
+		padding-top: 70px;
+		padding-bottom: 70px;
 	}
 
 	.contact-title{
-		font-size: 1.6rem;
+		font-size:2em;
 		margin-left: 5%;
 	}
 
 	.contact-sub-title{
-		font-size: 2.4rem;
+		font-size: 3rem;
 		letter-spacing: 1px;
-		margin-top: 	15px;
+		margin-top: 20px;
 		margin-left: 5%;
 	}
 
 	.contact-sentence{
-		margin-top: 15px;
+		margin-top: 20px;
 		width: 70%;
 		margin-left: 5%;
-		font-size: 1.4rem;
+		font-size: 1.8rem;
 		letter-spacing: 1px;
 	}
 
