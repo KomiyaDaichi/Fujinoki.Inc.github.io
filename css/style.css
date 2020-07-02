@@ -1259,10 +1259,10 @@ div{
 	
 	.fv-textbox{
 		left: 5%;
-		font-size: 5vw;
+		font-size: 7vw;
 		color: #333;
 		top: auto;
-		bottom: 10%;
+		bottom: 20%;
 		transform: translateY(0);
 		font-weight: bold;
 	}
@@ -1280,7 +1280,7 @@ div{
 	.mainphoto{
 		width: 85%;
 		border-radius: 0 0 0 120px;
-		height: 75vh
+		height: 75vh;
 
 	}
 
@@ -1917,12 +1917,10 @@ div{
 	.mainphoto{
 		width: 90%;
 		border-radius: 0 0 0 100px;
-		height: 80vh;
 	}
 
 	.mainphoto img{
 		border-radius: 0 0 0 100px;
-		height: 80vh;
 	}
 
 	.fixed-menu{
