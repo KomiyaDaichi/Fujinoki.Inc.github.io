@@ -1,5 +1,11 @@
 
 $(function(){
+	setTimeout(function(){
+		$('.loading').fadeOut(1000);
+	},1000);
+});
+
+$(function(){
 	$(window).on('resize scroll', function(){
 		if(window.matchMedia('(min-width:1025px)').matches){
 			
