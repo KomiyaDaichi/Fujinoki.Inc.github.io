@@ -1,10 +1,3 @@
-$(function(){
-	$(window).on("load",function(){
-		setTimeout(function(){
-			$('.loading').fadeOut();
-		},1000)
-	});
-});
 
 $(function(){
 	$(window).on('resize scroll', function(){
