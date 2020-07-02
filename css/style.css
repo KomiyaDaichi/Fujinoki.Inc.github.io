@@ -1917,12 +1917,12 @@ div{
 	.mainphoto{
 		width: 90%;
 		border-radius: 0 0 0 100px;
-		height: calc(95vh - 60px);
+		height: 80vh;
 	}
 
 	.mainphoto img{
 		border-radius: 0 0 0 100px;
-		height: calc(95vh - 60px);
+		height: 80vh;
 	}
 
 	.fixed-menu{
@@ -2031,7 +2031,7 @@ div{
 	}
 
 	.service-title{
-		font-size:3.2rem;
+		font-size:3.4rem;
 		letter-spacing: 1px;
 	}
 
@@ -2058,7 +2058,7 @@ div{
 	}
 
 	.service-more{
-		width: 220px;
+		width: 100%;
 		margin-top: 30px;
 	}
 
@@ -2127,7 +2127,7 @@ div{
 	}
 
 	.flow-more{
-		width: 220px;
+		width: 100%;
 		margin: 40px auto 0;
 	}
 
@@ -2173,7 +2173,7 @@ div{
 
 	.news-more,
 	.gallery-more{
-		width: 220px;
+		width: 90%;
 		margin: 40px auto 0;
 	}
 
