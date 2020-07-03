@@ -1010,7 +1010,7 @@ div{
 	}
 
 	.logo{
-		font-size: 3.2rem;
+		font-size: 3.4rem;
 		margin-left: 4%;
 	}
 
@@ -1261,10 +1261,9 @@ div{
 	
 	.fv-textbox{
 		left: 5%;
-		font-size: 7vw;
+		font-size: 6vw;
 		color: #333;
-		top: auto;
-		bottom: 20%;
+		top: 25%;
 		transform: translateY(0);
 		font-weight: bold;
 	}
@@ -1279,6 +1278,21 @@ div{
 		margin-top: 10px;
 	}
 
+	.fv-sentence{
+	margin-top: 50px;
+	font-size: 2rem;
+}
+
+.fv-counceling{
+	width: 320px;
+	height: 65px;
+	line-height: 65px;
+	font-size: 1.4rem;
+	margin-top: 70px;
+}
+
+	
+	
 	.mainphoto{
 		width: 85%;
 		border-radius: 0 0 0 120px;
@@ -1291,10 +1305,6 @@ div{
 		height: 75vh;
 	}
 
-	.fv-sentence,
-	.fv-counceling{
-		display: none;
-	}
 
 	.fixed-menu{
 		right: 10px;;
