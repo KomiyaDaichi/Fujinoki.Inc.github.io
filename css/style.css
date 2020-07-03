@@ -1934,9 +1934,15 @@ div{
 	
 	.fv-textbox{
 		font-size: 7.5vw;
+		top: auto;
 		bottom: 20%;
 	}
 
+	.fv-counceling,
+	.fv-sentence{
+		display: none;
+	}
+	
 	.mainphoto{
 		width: 90%;
 		border-radius: 0 0 0 100px;
