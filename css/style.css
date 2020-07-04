@@ -1261,7 +1261,7 @@ div{
 	
 	.fv-textbox{
 		left: 5%;
-		font-size: 6vw;
+		font-size:4.5vw;
 		color: #333;
 		top: 25%;
 		transform: translateY(0);
@@ -1275,12 +1275,12 @@ div{
 	}
 
 	.fv-text2{
-		margin-top: 10px;
+		margin-top: 1vw;
 	}
 
 	.fv-sentence{
-	margin-top: 50px;
-	font-size: 2rem;
+	margin-top: 5vw;
+	font-size: 2vw;
 }
 
 .fv-counceling{
@@ -1296,13 +1296,13 @@ div{
 	.mainphoto{
 		width: 85%;
 		border-radius: 0 0 0 120px;
-		height: 75vh;
+		height: 80vh;
 
 	}
 
 	.mainphoto img{
 		border-radius: 0 0 0 120px;
-		height: 75vh;
+		height: 80vh;
 	}
 
 
