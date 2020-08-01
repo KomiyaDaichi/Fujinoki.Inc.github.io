@@ -948,7 +948,7 @@ div{
 	font-size: 2rem;
 }
 
-.futter{
+.footer{
 	display: block;
 	background-color:#096fc8;
 	color: #fff;
@@ -956,7 +956,7 @@ div{
 	padding-bottom: 5px;
 }
 
-.futter-container{
+.footer-container{
 	width: 88%;
 	margin: 0 auto;
 	display: flex;
@@ -964,11 +964,11 @@ div{
 	align-items: center;
 }
 
-.futter-logo{
+.footer-logo{
 	font-size: 3.4rem;
 }
 
-.futter-nav{
+.footer-nav{
 	display: flex;
 	width: 600px;
 	justify-content: space-between;
@@ -976,7 +976,7 @@ div{
 	margin-right: 5%;
 }
 
-.futter-nav a{
+.footer-nav a{
 	color: #fff;
 	font-size: 1.4rem;
 }
@@ -1789,35 +1789,35 @@ div{
 	
 	
 	
-	.futter{
+	.footer{
 		display: block;
 		padding-top: 40px;
 		padding-bottom: 10px;
 	}
 	
-	.futter-container{
+	.footer-container{
 		widows: 88%;
 		display: block;
 	}
 
-	.futter-logo{
+	.footer-logo{
 		font-size: 4rem;
 		letter-spacing: 0;;
 	}
 
-	.futter-nav{
+	.footer-nav{
 		flex-direction: column;
 		margin-left: 0px;
 		margin-top: 10px;
 	}
 
-	.futter-nav li{
+	.footer-nav li{
 		display: block;
 		margin-top: 25px;
 		line-height: 1;
 	}
 	
-	.futter-nav a{
+	.footer-nav a{
 		position: static;
 		font-size: 1.6rem;
 	}
@@ -2289,39 +2289,39 @@ div{
 																		/*フッター*/
 	
 
-	.futter{
+	.footer{
 		display: block;
 		padding-top: 30px;
 		padding-bottom: 10px;
 	}
 	
-	.futter-container{
+	.footer-container{
 		widows: 88%;
 		display: block;
 	}
 
-	.futter-logo{
+	.footer-logo{
 		font-size: 3.2rem;
 		letter-spacing: 0;;
 	}
 
-	.futter-logo-black{
+	.footer-logo-black{
 		color: #333;
 	}
 	
-	.futter-nav{
+	.footer-nav{
 		flex-direction: column;
 		margin-left: 0px;
 		margin-top: 10px;
 	}
 
-	.futter-nav li{
+	.footer-nav li{
 		display: block;
 		margin-top: 25px;
 		line-height: 1;
 	}
 	
-	.futter-nav a{
+	.footer-nav a{
 		position: static;
 		font-size: 1rem;
 	}
